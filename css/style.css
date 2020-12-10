@@ -69,3 +69,11 @@ i:hover{
     color: gold;
     cursor: pointer;
 }
+.fa-search{
+    position: absolute;
+    right: 10em;
+
+
+}
+input:focus{ color: goldenrod}
+input{ color: black }
