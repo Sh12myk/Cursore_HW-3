@@ -9,7 +9,7 @@
 
 body{
     margin: 120px;
-    background-color: black;
+    background: rgb(44, 44, 44);;
 }
 
 header{
@@ -73,11 +73,36 @@ i:hover{
     color: gold;
     cursor: pointer;
 }
-.fa-search{
+
+table tr th input{
+    margin: -0.4em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    padding-left: 1.5em;
+    border-collapse: collapse;
+    border-radius: 6px;
+    border-color: goldenrod;
+    background-image: url("../img/loupe.png");
+    background-repeat: no-repeat;
+    background-color: azure;
+    background-size: 25px 25px;
+    background-position: 5px 5px;
     position: relative;
-    right: -8em;
+    right: -8.2em;
+    font-size: 1.1em;
+    color: black;
+
+}
+.ico-checkbox{
+    width: 17px;
+    margin: -0.1em -0.1em 0.1em -0.1em;
+
 
 
 }
+.fa-file-pdf{
+    margin: 0.2em;
+}
+
 input:focus{ color: goldenrod}
-input{ color: black }
+
